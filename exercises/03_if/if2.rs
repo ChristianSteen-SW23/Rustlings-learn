@@ -1,9 +1,18 @@
 // TODO: Fix the compiler error on this function.
 fn foo_if_fizz(fizzish: &str) -> &str {
+    /*if fizzish == "fizz" || fizzish == "fuzz" {
+        if fizzish == "fizz" {
+            return "foo";
+        }
+        return "bar";
+    }
+    "baz"*/
     if fizzish == "fizz" {
         "foo"
+    } else if fizzish == "fuzz" {
+        "bar"
     } else {
-        1
+        "baz"
     }
 }
 
