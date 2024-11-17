@@ -24,10 +24,16 @@ enum Command {
 }
 
 mod my_module {
+    use std::vec;
+
     use super::Command;
 
     // TODO: Complete the function as described above.
     // pub fn transformer(input: ???) -> ??? { ??? }
+
+    pub fn transformer(vec!) -> {
+
+    }
 }
 
 fn main() {
